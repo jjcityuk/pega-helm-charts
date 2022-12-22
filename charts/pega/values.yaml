@@ -77,7 +77,7 @@ global:
       external_secret_name: ""
     # Leave customArtifactory.enableSSLVerification enabled to ensure secure access to your custom artifactory;
     # when customArtifactory.enableSSLVerification is false, SSL verification is skipped and establishes an insecure connection.
-    enableSSLVerification: true
+    enableSSLVerification: false
     # Provide a required domain certificate for your custom artifactory; if none is required, leave this field blank.
     certificate:
 
